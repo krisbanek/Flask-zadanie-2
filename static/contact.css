@@ -3,27 +3,22 @@ h1 {
     font-size: 40px;
     background-color: blue;
 }
-
 .second {
     color: blue;
     font-size: 30px;   
 }
-
 .third {
     color: red;
     font-size: 25px;
 }
-
 .fourth {
-    color: purple;
+    color: pink;
     font-size: 25px;
 }
-
 .fifth {
     color: blue;
     font-size: 30px;   
 }
-
 .sixth {
     color: red;
     font-size: 25px; 

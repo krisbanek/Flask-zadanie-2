@@ -1,9 +1,9 @@
-<!doctype html>
-<html lang="pl">
     <head>
         <meta charset="utf-8">
         <title>contact</title>
-        <link rel="stylesheet" href="contact.css">
+        {% block css %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='contact.css') }}">
+        {% endblock %}
     </head>
     <body>
         <h1>Ahoj Szczurze Lądowy!</h1>
@@ -11,4 +11,3 @@
         <img src="{{url_for('static',filename='kraken.jpg')}}" width="500" height="500" />
         <div id="content">{% block content %}{% endblock %}</div>
     </body>
-</html>
